@@ -1,7 +1,7 @@
 body {
   background-color: #111;
   font-family: sans-serif;
-  color: #E9967A
+  color: #E9967A;
 }
 
 p {
@@ -9,5 +9,17 @@ p {
 }
 
 a {
-  color: #7FFFD4;  
+  color: #7FFFD4;
+}
+
+#screen {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    pointer-events:none;
+}
+
+#content {
+  height: 100%;
 }
