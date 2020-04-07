@@ -93,28 +93,28 @@ function render(){
       vx = vx + (comp_x * step);
       vy = vy + (comp_y * step);
 
-      if (yy < -100){
+      if (yy < -200){
         vx = vx / 2;
         vy = 0.0;
-        yy = -100;
+        yy = -199;
       }
 
-      if (xx < -100){
+      if (xx < -200){
         vx = 0.0;
         vy = vy / 2;
-        xx = -100;
+        xx = -199;
       }
 
-      if (yy > w_h + 100){
+      if (yy > w_h + 200){
         vx = vx / 2;
         vy = 0.0;
-        yy = w_h + 99;
+        yy = w_h + 199;
       }
 
-      if (xx > w_w + 100){
+      if (xx > w_w + 200){
         vx = 0.0;
         vy = vy / 2;
-        xx = w_w + 99;
+        xx = w_w + 199;
       }
 
       yy = yy + (step * vy);
