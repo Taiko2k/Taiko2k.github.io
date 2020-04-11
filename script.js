@@ -6,11 +6,11 @@ var t1 = 0;
 var t2 = 0;
 var ft = 0.0;
 
-var part_pos_x = [10, 200, 300];
-var part_pos_y = [400, 500, 600];
+var part_pos_x = [1110, 1200, 1300];
+var part_pos_y = [1400, 1500, 1600];
 var part_vel_x = [0, 0, 0];
 var part_vel_y = [0, 0, 0];
-var parts = 3;
+var parts = 3
 
 var eff_time = 100;
 var eff_x = -1000;
