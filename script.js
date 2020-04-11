@@ -6,8 +6,8 @@ var t1 = 0;
 var t2 = 0;
 var ft = 0.0;
 
-var part_pos_x = [1110, 1200, 1300];
-var part_pos_y = [1400, 1500, 1600];
+var part_pos_x = [-100, 1000, 2000];
+var part_pos_y = [500, -100, 4000];
 var part_vel_x = [0, 0, 0];
 var part_vel_y = [0, 0, 0];
 var parts = 3
